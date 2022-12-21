@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <center>
+        <div>
+            <h2>Login</h2>
+            <form action="/login" method="POST">
+                <input type="userid" name="member_id" placeholder="Userid">
+                <input type="password" name="pw" placeholder="Password">
+                <br><br>
+                <input type="submit" value="로그인">
+            </form>
+            <form action = "/register" method="GET">
+                <button type ="submit" oneclick="window.location.href='register'">회원가입</button>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
